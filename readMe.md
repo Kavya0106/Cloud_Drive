@@ -1,42 +1,48 @@
-# Blood Bank using EJS
+# Cloud Drive 
+
+### Login Screen
+![Login Screen](https://github.com/Kavya0106/Cloud_Drive/blob/main/Photo/login.png)
 
 ### Home Screen
-![Home Screen](https://github.com/Kavya0106/Cloud_Drive/blob/main/Photo/photo.png)
+![Home Screen](https://github.com/Kavya0106/Cloud_Drive/blob/main/Photo/Main.png)
 
-### Detailed
-![Details Screen](https://github.com/Shyam-Chadha/Blood-Bank/blob/main/ss/0ffa499922434822dee9ac7fe62834d7d451a878.jpg?raw=true)
+### Creating of album
+![Creation of album](https://github.com/Kavya0106/Cloud_Drive/blob/main/Photo/album.png)
 
-### Eligibility Form
-![Eligibility Form](https://github.com/Shyam-Chadha/Blood-Bank/blob/main/ss/5357cc977a47bc2a9a1b91816e141d7fe970bbf0.jpg?raw=true)
+### editing text_File
+![Creation of text_file ](https://github.com/Kavya0106/Cloud_Drive/blob/main/Photo/file.png)
+
 
 ### Features
 
-1. Frontend using ejs
-2. Mongodb 
+1. Frontend using HTML,CSS 
+2. PHP 
 3. User login
-4. Express.js framework 
-5. Passport.js
+4. NodeJS for working of opertions
+
+
 
 
 ### Note on Issues
 
-For any bugs or errors in the project reach out to me on shyamchadha34@gmail.com
+For any bugs or errors in the project reach out to me on kavyagoyal06@gmail.com
 
 ### Usage
-Bridge between donor and reciever.
-Know nearby hospitals
-Find donor with same blood group
+Help in creation of the text file within the drive
+Help in uploading the images directly from the browser
+User can upload any .JSON file into our text folder and can perform modification on it
 
 ### Run
 
 - Download the zip file
 - Unzip it
-- Open cmd
-- Browse to the unzipped folder
-- Type npm install to install all dependencies
--  Type nodemon index.js OR npm start
--  Open any browser
--  Go to localhost:3000
+- Open XAMPP control
+- Start the apache and MySQL
+- Now open the browser
+-  Type http://localhost/cloud/login.php
+-  If you are a existing customer than login with your credentials 
+-  Else click to signUp and provide your details
+- Now after login the home page is open now perform or create your own drive 
 
 
 ### Build
@@ -50,7 +56,7 @@ SECRET
 
 The MIT License
 
-Copyright (c) 2022 Shyam Chadha 
+Copyright (c) 2023 Kavya Goyal 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
