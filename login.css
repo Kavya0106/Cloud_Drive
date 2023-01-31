@@ -1,0 +1,34 @@
+#bg{
+		background-image: url('https://media.istockphoto.com/id/1368151370/photo/user-typing-login-and-password-cyber-security-concept.jpg?b=1&s=170667a&w=0&k=20&c=wm6YUMs03Bup4_9XcQaX61L711qJxAUExEJp_PWO8gI=');
+                height: 50rem;
+				width:auto;
+				padding-top: 30px;
+                /* margin-left: 30px; */
+	}
+   
+	#box #text{
+    Color: rgb(14, 227, 156);
+		height: 25px;
+		border-radius: 5px;
+		padding: 4px;
+		border: solid thin rgb(249, 141, 141);
+		width: 100%;
+	}
+
+	#box #button{
+
+		padding: 10px;
+		width: 100px;
+		color: white;
+		background-color: lightblue;
+		border: none;
+	}
+
+	#box{
+		padding: 20px;
+		background-color: #CCE6EA;
+		margin: 250px;
+        margin-left: 35rem;
+		width: 300px;
+		
+	}

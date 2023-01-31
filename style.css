@@ -1,0 +1,350 @@
+#header{
+/* border: 1px solid black; */
+margin: 10px;
+padding: 5px;
+/* background-color: rgb(126, 123, 118); */
+display: flex;
+justify-content: center
+}
+#header button{
+    border-radius: 10px;
+    
+    font-weight: 900;
+    padding: 20px;
+    background: rgb(136, 123, 251);
+    margin: 10px;
+    cursor: pointer;
+}
+#header button:hover{
+    transform: scale(1.1);
+    background: rgb(223, 206, 206);
+}
+#breadcrumb{
+border: 2px solid black;
+margin: 10px;
+background-color: rgb(208, 239, 234);
+display: flex;
+}
+#breadcrumb a {
+    background-color: rgb(218, 251, 195);
+    padding: 10px;
+    cursor: pointer;
+    border-right: 5px solid black;
+}
+#breadcrumb a:hover{
+    background-color:rgb(117, 77, 156);
+    text-decoration: underline;
+
+}
+#container{
+border: 3px solid black;
+margin: 10px;
+display: flex;
+background-color: rgb(186, 183, 195);
+padding: 3px;
+}
+
+.folder {
+    background-color: rgb(72, 197, 70);
+    color:rgb(27, 3, 3);
+    height: 100px;
+    border-radius: 10px;
+    font-size: x-large;
+    border :2px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.folder div[purpose=name]{
+    margin-top:10px;
+}
+.folder [action]{
+    cursor: pointer;
+}
+.folder [action]:hover{
+text-decoration: underline;
+color: blue;
+
+}
+
+
+.text-file {
+    background-color: rgb(169, 96, 83);
+    color:rgb(151, 27, 27);
+    height: 100px;
+    border-radius: 10px;
+    width: 150px;
+    font-size: x-large;
+    border :2px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.text-file div[purpose=name]{
+    margin-top: 10px;
+}
+.text-file [action]{
+    cursor: pointer;
+}
+.text-file [action]:hover{
+text-decoration: underline;
+color: blue;
+transform: scale(1.2);
+
+}
+
+.album {
+    background-color: rgb(231, 158, 89);
+    color:rgb(151, 27, 27);
+    height: 100px;
+    border-radius: 10px;
+    width: 150px;
+    font-size: x-large ;
+    border :2px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.album div[purpose=name]{
+    margin-top: 10px;
+}
+.album [action]{
+    cursor: pointer;
+}
+.album [action]:hover{
+text-decoration: underline;
+color: blue;
+transform: scale(1.2);
+
+}
+
+#app{
+    border: 1px solid black;
+    margin: 4px;
+    padding: 5px;
+    width: 82%;
+}
+#app-title-bar{
+    display: flex;
+    background-color: rgb(189, 183, 201);
+    height:40px ;
+    width: auto;
+    vertical-align: bottom;
+    
+}
+#app-title{
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+    border-right: 5px solid rgb(189, 183, 201);
+  
+   
+}
+#app-menu-bar{
+    display: flex;
+    background-color: rgb(115, 233, 241);
+    height: 40px;
+    cursor: pointer;    
+    
+}
+#app-body{
+    display: flex;
+    background-color: rgb(94, 194, 111);
+    height: 700px;
+    
+}
+.notepad-body{
+    height: 100%;
+    width: 100%;
+}
+.notepad-body textarea{
+    height: 100%;
+    width: 100%;
+}
+.notepad-menu *{
+    margin: 0px 5px;
+    padding: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.notepad-menu span{
+    vertical-align: bottom ;
+ 
+}
+.notepad-menu span:hover{
+    background-color: rgb(190, 154, 154);
+    transform: scale(1.1);
+}
+.notepad-menu input[type=color] {
+    width: 30px;
+}
+.notepad-menu select{
+    height: 30px;
+}
+.notepad-menu [pressed=true ]
+{
+    background-color: rgb(190, 154, 154);
+    transform: scale(1.1);
+}
+a[purpose= download]{
+    display: none;
+}
+
+#win-action span{
+    cursor: pointer;
+
+}
+#win-action span:hover{
+    color: blue;
+    transform: scale(1.2);
+}
+
+.notepad-menu input[action = upload]{
+    display: none;
+}
+
+.album-menu *{
+    margin: 5px 5px;
+    padding: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(250, 225, 225);
+
+}
+.album-menu span:hover{
+    background-color: hwb(0 27% 53%);
+    transform: scale(1.1);
+}
+.album-body{
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+}
+.picture-list{
+    border: 2px solid black;
+    height: 100px;
+    border-right: 5px;
+    margin: 5px;
+    /* padding: 5px; */
+    display: flex;
+}
+.picture-list img {
+    border: 2px solid black;
+    height: auto;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 2px;
+    cursor: pointer;
+}
+.picture-list img:hover{
+    transform: scale(1.1);
+    border: 2px solid blueviolet;
+   
+} 
+.picture-view{
+    border: 2px solid black;
+    height: 550px;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+}
+
+.picture-view > div{
+    height: 100%;
+    border: 2px solid wheat;
+
+}
+.picture-view .move-left{
+    width: 15%;
+}
+
+.picture-view .picture-main{
+    /* padding: 5px; */
+    margin: 5px;
+    height: 100%;
+    width: 110%;
+    object-fit: fill;
+    display: flex;
+}
+
+.picture-view .move-right{
+    width: 15%;
+}
+
+.picture-list img[pressed =true]{
+    transform: scale(1.2);
+    border: blueviolet;
+
+}
+
+.dropbtn {
+    background-color: #38fa58;
+    color: rgb(10, 10, 10);
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+   
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content .addFolder {
+    color: black;
+    padding: 2px ;
+    margin: 5px;
+    background-color: #acfab9;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content .addTextFile {
+    color: black;
+    padding: 2px ;
+    margin: 5px;
+    background-color: #acfab9;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content .addAlbum {
+    color: black;
+    padding: 2px ;
+    margin: 5px;
+    background-color: #acfab9;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content .addFolder:hover {background-color: rgb(217, 237, 103);
+cursor: pointer;}
+.dropdown-content .addTextFile:hover {background-color: rgb(217, 237, 103);
+    cursor: pointer;}
+    .dropdown-content .addAlbum:hover {background-color: rgb(217, 237, 103);
+        cursor: pointer;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #4d9efb;}
