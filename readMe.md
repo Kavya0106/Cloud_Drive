@@ -9,7 +9,7 @@
 ### Creating of album
 ![Creation of album](https://github.com/Kavya0106/Cloud_Drive/blob/main/Photo/album.png)
 
-### editing text_File
+### Editing text_File
 ![Creation of text_file ](https://github.com/Kavya0106/Cloud_Drive/blob/main/Photo/file.png)
 
 
