@@ -1,7 +1,7 @@
 # Blood Bank using EJS
 
 ### Home Screen
-![Home Screen](https://github.com/Shyam-Chadha/Blood-Bank/blob/main/ss/663c8e3b6f666743263812ef383ee36c32fc051b.jpg?raw=true)
+![Home Screen](https://github.com/Kavya0106/Cloud_Drive/blob/main/Photo/photo.png)
 
 ### Detailed
 ![Details Screen](https://github.com/Shyam-Chadha/Blood-Bank/blob/main/ss/0ffa499922434822dee9ac7fe62834d7d451a878.jpg?raw=true)
